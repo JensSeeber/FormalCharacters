@@ -20,6 +20,10 @@ This gap-package provides algorithms concerning formal characters.
 As the name suggests, you need the gap-system to use it. You can download a copy
 of gap from http://www.gap-system.org/Releases/index.html.
 
+This package is documented using AutoDoc. If you have AutoDoc installed (see
+https://github.com/homalg-project/AutoDoc), you can run make all
+and this will generate the documentation for you.
+
 You have (at least) two possibilities to use this package.
 First, if you are system admin, just open a terminal and navigate to your gap copy.
 Dive into the /pkg/ folder.
