@@ -1,0 +1,2 @@
+SetPackagePath("FormalCharacters", "./");
+LoadPackage("FormalCharacters");

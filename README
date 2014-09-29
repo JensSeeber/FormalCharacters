@@ -1,0 +1,47 @@
+  FormalCharacters - a gap-package for calculation and manipulation formal characters
+  
+  Copyright (C) 2014 Jens Seeber
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  
+
+This gap-package provides algorithms concerning formal characters.
+As the name suggests, you need the gap-system to use it. You can download a copy
+of gap from http://www.gap-system.org/Releases/index.html.
+
+You have (at least) two possibilities to use this package.
+First, if you are system admin, just open a terminal and navigate to your gap copy.
+Dive into the /pkg/ folder.
+Run this command:
+
+    ln -s /path/to/your/copy/of/the/FormalCharacters-Package/FormalCharacters
+
+This will result in gap reading the package automatically whenever you start gap.
+To use it in a gap-session just type
+
+    LoadPackage("FormalCharacters");
+
+from within gap.
+
+The second possibilty (if you lack root privileges) is to use the "LoadFormalCharacters.g" shipped with this package.
+Just open a terminal, navigate here and type
+
+    gap LoadFormalCharacters.g
+
+This file will take care of everything and load the package for you.
+
+
+If you have any bug-reports or feature-requests just use github's issue tracker.
+
+Thank you and enjoy!
